@@ -1,6 +1,6 @@
 # eDNA Metabarcoding for Monitoring Plant Biodiversity in Michigan Inland Lakes
 
-**Overview**
+## Overview
 
 This repository contains the data, code, and documentation for the manuscript titled:
 
