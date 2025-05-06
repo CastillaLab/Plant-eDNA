@@ -13,4 +13,6 @@ Freshwater ecosystems are essential to global biodiversity and human well-being,
 ├── results/                  
 ├── metadata/                            
 ├── LICENSE                   
-├── README.md                             
+├── README.md       
+
+## Folder description
