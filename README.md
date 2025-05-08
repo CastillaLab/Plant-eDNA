@@ -16,3 +16,7 @@ Freshwater ecosystems are essential to global biodiversity and human well-being,
 ├── README.md       
 
 ## Folder description
+
+### Data
+
+**prop.reads.richness.groups.csv**: For each lake and plant community (i.e., terrestrial, wetland, and aquatic), the data include the proportion of sequence reads and species richness.
