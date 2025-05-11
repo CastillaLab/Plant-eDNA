@@ -28,8 +28,13 @@ Freshwater ecosystems are essential to global biodiversity and human well-being,
 - **HOMOGENEITY OF VARIANCES**: This folder contains the script used to analyze the multivariate homogeneity of group dispersions (variances) across lakes.
 - **PERMANOVA_dbRDA_BETAPART**: This folder contains the script used to perform PERMANOVA, distance-based redundancy analysis (dbRDA), and to partition beta diversity into nestedness and turnover components for terrestrial, wetland, and aquatic plant communities.
 
-#### BETA DIVERSITY
+#### HEAT MAPS
 
 This folder contains two R scripts:
 - *CountSpecies.R*: This script generates species richness counts used for the heatmaps.
-- *IDWplants_22PanelPlots_2025.R*: This script creates heatmaps for each plant community across the 22 study lakes. 
+- *IDWplants_22PanelPlots_2025.R*: This script creates heatmaps for each plant community across the 22 study lakes.
+
+#### MINIMUM NUMBER OF READS PER SAMPLE
+
+This folder contains the script used to reproduce Figure S1, which compares the number of sequence reads per sample both combining all lakes and by individual lake. 
+
