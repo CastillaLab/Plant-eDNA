@@ -22,3 +22,8 @@ Freshwater ecosystems are essential to global biodiversity and human well-being,
 
 - **ALPHA DIVERSITY COMPARISON ACROSS PLANT COMMUNITIES**: This folder contains the script used to compare species richness and Shannon-Wiener diversity indices across terrestrial, wetland, and aquatic plant communities from 22 study lakes.
 - **ALPHA DIVERSITY MODEL SELECTION**:This folder contains the script used to evaluate the effects of lake and landscape characteristics on species richness and Shannon-Wiener diversity indices for terrestrial, wetland, and aquatic plant communities, using AIC-based model selection.
+
+#### BETA DIVERSITY
+
+- **HOMOGENEITY OF VARIANCES**: This folder contains the script used to analyze the multivariate homogeneity of group dispersions (variances) across lakes.
+- **PERMANOVA_dbRDA_BETAPART**: This folder contains the script used to perform PERMANOVA, distance-based redundancy analysis (dbRDA), and to partition beta diversity into nestedness and turnover components for terrestrial, wetland, and aquatic plant communities.
