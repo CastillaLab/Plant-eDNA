@@ -38,3 +38,10 @@ This folder contains two R scripts:
 
 This folder contains the script used to reproduce Figure S1, which compares the number of sequence reads per sample both combining all lakes and by individual lake. 
 
+#### PROPORTION OF SEQUENCE READS ACROSS PLANT COMMUNITIES
+
+- **PLOT RICHNESS AND PROPORTION OF SEQUENCE READS PER LAKE**: This folder contains the script for generating stacked bar plots that compare species richness and the proportion of sequence reads for each plant community across all study lakes.
+- **MODEL SELECTION PLANT COMMUNITY PROPORTIONS**: This folder contains the script used to evaluate the effects of lake and landscape characteristics on the proportion of sequence reads of terrestrial, wetland, and aquatic plant communities using AIC-based model selection.
+
+
+
