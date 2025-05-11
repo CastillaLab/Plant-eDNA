@@ -16,7 +16,7 @@ Freshwater ecosystems are essential to global biodiversity and human well-being,
 - **Alpha Diversity Comparison Across Plant Communities**: This dataset was used to generate Figure S4 and contains species richness and Shannon-Wiener diversity index values for each plant community type (terrestrial, wetland, and aquatic) across 22 study lakes.
 - **prop.reads.richness.groups.csv**: For each lake and plant community (i.e., terrestrial, wetland, and aquatic), the data include the proportion of sequence reads and species richness.
 
-### DATA
+### SCRIPTS
 
 #### ALPHA DIVERSITY
 
