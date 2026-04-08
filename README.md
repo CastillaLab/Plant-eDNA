@@ -18,6 +18,9 @@ Freshwater ecosystems are essential to global biodiversity and human well-being,
 
 ### SCRIPTS
 
+#### WITHIN-LAKE PLANT COMMUNITY DIVERSITY
+This folder contains the script used to analyze the relationship between distance to shoreline and alpha diversity (i.e., species richness and Shannon-Wiener diversity index) and reproduce Figure 1.
+
 #### ALPHA DIVERSITY
 
 - **ALPHA DIVERSITY COMPARISON ACROSS PLANT COMMUNITIES**: This folder contains the script used to compare species richness and Shannon-Wiener diversity indices across terrestrial, wetland, and aquatic plant communities from 22 study lakes.
