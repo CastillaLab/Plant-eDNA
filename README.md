@@ -28,7 +28,7 @@ This folder contains two R scripts:
 #### ALPHA DIVERSITY
 
 - **ALPHA DIVERSITY COMPARISON ACROSS PLANT COMMUNITIES**: This folder contains the script used to compare species richness and Shannon-Wiener diversity indices across terrestrial, wetland, and aquatic plant communities from 22 study lakes and reproduce Figure S4.
-- **ALPHA DIVERSITY MODEL SELECTION**: This folder contains the scripts used to evaluate the effects of sampling timing, lake characteristics, and landscape variables on species richness and Shannon–Wiener diversity indices of terrestrial, wetland, and aquatic plant communities using AIC-based model selection.
+- **ALPHA DIVERSITY MODEL SELECTION**: This folder contains the scripts used to evaluate the effects of sampling timing, lake characteristics, and landscape variables on species richness and Shannon–Wiener diversity indices of terrestrial, wetland, and aquatic plant communities using AIC-based model selection. This script reproduces Figure 3.
 
 #### BETA DIVERSITY
 
