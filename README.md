@@ -15,7 +15,7 @@ Freshwater ecosystems are essential to global biodiversity and human well-being,
 - **FINAL_plants.median.clean.CM_0diff_NO_gen.rev_blast_28Dec21.csv**: Plant community matrix including the number of sequences per sample for each taxon across the 22 study lakes. For each sample, the dataset includes lake name, sample name, sample type (surface or benthic), latitude, longitude, and the shortest distance to the shoreline.
 - **alpha diversity lakes.csv**: This dataset was used to generate Figure S4 and contains species richness and Shannon-Wiener diversity index values for each plant community type (terrestrial, wetland, and aquatic) across 22 study lakes.
 - **lakes traits.csv**: Dataset containing variables describing sampling timing (year, Julian day), lake characteristics (lake area and maximum depth), and surrounding landscape features, including latitude, hydrological connectivity (IWS stream density) and the percentage of different land cover types (agriculture, developed land, forest).
-- **prop reads richness groups.csv**: For each lake and plant community (i.e., terrestrial, wetland, and aquatic), the data include the proportion of sequence reads and species richness.
+- **prop reads richness groups.csv**: For each lake and plant community (i.e., terrestrial, wetland, and aquatic), the data include the proportion of sequence reads and species richness. This dataset was used to generate Figure 2.
 - **spinfo.csv**: Dataset containing species-level information for all species detected through eDNA metabarcoding analysis, including habitat association (terrestrial, wetland, or aquatic), native status (native or alien), and growth habit (e.g., forb, grass, vine, tree). 
 
 ### SCRIPTS
