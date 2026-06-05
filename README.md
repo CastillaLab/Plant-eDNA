@@ -19,16 +19,20 @@ This folder contains scripts used for processing plant *rcbL* metabarcoding data
 
 #### Scripts
 
-#### Remove duplicate seqs
+#### 1. Remove duplicate seqs
 This folder contains one script:
 - *Rem_Dups_Gaps_By_Species.R*: This R script processes a FASTA alignment to removes= duplicate sequences within each species while retaining the longest representative sequence. The script calculates pairwise distance within species, identify identical sequences (distance = 0), remove redundant sequences, keeps the longest sequence among duplicates, and outputs a filtered FASTA alignment.
 
-#### Sequence alignment with Decipher
+#### 2. Sequence alignment with Decipher
 This folder contains one script:
 - *DECIPHER_AlignTranslation.R*: This R script performs codon-aware multiple sequence alignment of protein-coding DNA sequences using the DECIPHER package. It translates DNA sequences into amino acids, aligns protein sequences to improve accuracy, back-translates aligned sequences to nucleotides, and uses NCBI genetic code 11 (plant plastid code).
 
+#### 3. Sequence retrieval from GenBank
+This folder contains R scripts used to query NCBI GenBank for DNA sequences based on species lists and target loci. The scripts automate sequence retrieval, formatting, and compilation for downstream phylogenetic or metabarcoding analyses.
+- *Find_NCBI.R*: This script defines the function *FindNCBI()*, which retrieves DNA sequences from NCBI GenBank using the rentrez package. The function searches GenBank using species names and target locus, retrieves accessions IDs and FASTA sequences, writes one FASTA file per species, and generates a summary table of sequence counts per species.
+- *RunFunctions_NCBI_051819.R*: This script is a wrapper used to execute *FindNCBI()* for a given species list and retrieve sequences from GenBank for a specific locus. It reads a formatted species list, constructs scientific names, queries GenBank for the target locus, and runs batch sequence retrieval.
 
-
+ 
 
 ### Plant Community Analyses 
 #### DATA
