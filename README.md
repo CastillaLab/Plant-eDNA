@@ -10,6 +10,9 @@ Freshwater ecosystems are essential to global biodiversity and human well-being,
 
 ## Folder description
 
+### Bioinformatic Analysis
+This folder contains scripts used for processing plant *rcbL* metabarcoding data, including sequencing cleaning, alignment, duplicate removal, GenBank retrieval, taxonomy assignment, and OUT clustering using Mothur.
+
 ### DATA
 
 - **FINAL_plants.median.clean.CM_0diff_NO_gen.rev_blast_28Dec21.csv**: Plant community matrix including the number of sequences per sample for each taxon across the 22 study lakes. For each sample, the dataset includes lake name, sample name, sample type (surface or benthic), latitude, longitude, and the shortest distance to the shoreline.
