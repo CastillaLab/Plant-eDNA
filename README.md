@@ -52,27 +52,27 @@ This folder contains one script:
 
 ### Scripts
 
-#### alpha diversity
-- **alpha diversity comparison across plant communities**: This folder contains the script used to compare species richness and Shannon-Wiener diversity indices across terrestrial, wetland, and aquatic plant communities from 22 study lakes and reproduce Figure S4.
-- **alpha diversity model selections**: This folder contains the scripts used to evaluate the effects of sampling timing, lake characteristics, and landscape variables on species richness and Shannon–Wiener diversity indices of terrestrial, wetland, and aquatic plant communities using AIC-based model selection. This script reproduces Figure 3.
+#### Alpha diversity
+- **Alpha diversity comparison across plant communities**: This folder contains the script used to compare species richness and Shannon-Wiener diversity indices across terrestrial, wetland, and aquatic plant communities from 22 study lakes and reproduce Figure S4.
+- **Alpha diversity model selections**: This folder contains the scripts used to evaluate the effects of sampling timing, lake characteristics, and landscape variables on species richness and Shannon–Wiener diversity indices of terrestrial, wetland, and aquatic plant communities using AIC-based model selection. This script reproduces Figure 3.
 
-#### beta diversity
-- **homogeneity of variances**: This folder contains the script used to analyze the multivariate homogeneity of group dispersions (variances) across lakes.
-- **permanova dbRAD betapart**: This folder contains the script used to perform PERMANOVA, distance-based redundancy analysis (dbRDA), and to partition beta diversity into nestedness and turnover components for terrestrial, wetland, and aquatic plant communities.
+#### Beta diversity
+- **Homogeneity of variances**: This folder contains the script used to analyze the multivariate homogeneity of group dispersions (variances) across lakes.
+- **Permanova dbRAD betapart**: This folder contains the script used to perform PERMANOVA, distance-based redundancy analysis (dbRDA), and to partition beta diversity into nestedness and turnover components for terrestrial, wetland, and aquatic plant communities.
 
-#### heat maps
+#### Heat maps
 This folder contains two R scripts:
 - *CountSpecies.R*: This script generates species richness counts used for the heatmaps.
 - *IDWplants_22PanelPlots_2025.R*: This script creates heatmaps for each plant community across the 22 study lakes.
 
-#### minimum number of reads per sample
+#### Minimum number of reads per sample
 This folder contains the script used to reproduce Figure S1, which compares the number of sequence reads per sample both combining all lakes and by individual lake. 
 
-#### proportion of sequence reads across plant communities
+#### Proportion of sequence reads across plant communities
 - **Model selection plant community proportions**: This folder contains the script used to evaluate the effects of lake and landscape characteristics on the proportion of sequence reads of terrestrial, wetland, and aquatic plant communities using AIC-based model selection.
 - **Plot richness and proportion of sequence reads per lake**: This folder contains the script for generating stacked bar plots that compare species richness and the proportion of sequence reads for each plant community across all study lakes.
 
-#### within-lake plant community diversity
+#### Within-lake plant community diversity
 This folder contains two R scripts:
 - *Within_lake_diversity.R*: This script evaluates the effects of distance to shoreline and sample type (surface vs. benthic) on alpha diversity metrics, including species richness and the Shannon–Wiener diversity index, and reproduces Figure 1.
 - *Rarefaction curves.R*: This script creates the species accumulation curves for each of the 22 study lakes based on presence-absence data derived from filtered eDNA samples (≥ 1,000 reads) and reproduces Figure S2. 
