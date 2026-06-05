@@ -14,7 +14,7 @@ Freshwater ecosystems are essential to global biodiversity and human well-being,
 This folder contains scripts used for processing plant *rcbL* metabarcoding data, including sequencing cleaning, alignment, duplicate removal, GenBank retrieval, taxonomy assignment, and OUT clustering using Mothur.
 
 #### Data
-- **Plant_rbcL_align_noprimers_092419.fas**: Curated reference alignment of plant *rbcL* sequences used to construct the metabarcoding reference database. Sequences were retrieved from GenBank, aligned with DECIPHER, manually curated, trimmed to the target barcode region, deduplicated, and supplemented with newly generated Sanger sequences.
+- **Plant_rbcL_align_noprimers_092419.fas**: Curated reference alignment of plant *rbcL* sequences used to construct the metabarcoding reference database. Sequences were retrieved from GenBank, aligned with DECIPHER, manually curated, trimmed to the target barcode region, deduplicated, and supplemented with newly generated Sanger sequences (see Supplemental Table S2).
 - **Plant_rbcL_taxonomy_file_092419.txt**: Reference taxonomic file associated with the curated *rbcL* sequence database. Each sequence is linked to a hierarchical classification derived from taxonomic databases and used for Mothur-based taxonomic assignment.
 
 #### Scripts
