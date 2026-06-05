@@ -32,7 +32,14 @@ This folder contains R scripts used to query NCBI GenBank for DNA sequences base
 - *Find_NCBI.R*: This script defines the function *FindNCBI()*, which retrieves DNA sequences from NCBI GenBank using the rentrez package. The function searches GenBank using species names and target locus, retrieves accessions IDs and FASTA sequences, writes one FASTA file per species, and generates a summary table of sequence counts per species.
 - *RunFunctions_NCBI_051819.R*: This script is a wrapper used to execute *FindNCBI()* for a given species list and retrieve sequences from GenBank for a specific locus. It reads a formatted species list, constructs scientific names, queries GenBank for the target locus, and runs batch sequence retrieval.
 
- 
+#### 4. Taxonomy file
+This folder contains an R script used to generate a Mothur-compatible taxonomy file by retrieving taxonomic classifications from the ITIS database using the taxize package.
+- *Taxize_taxonomy_file_prep_plant.R*: This script extracts taxonomic classifications for a list of plant sequences and constructs a formatted taxonomy file suitable for downstream use in Mothur. The script parses sequence headers to extract species names, queries ITIS for taxonomic hierarchy, extract ranks (Kingdom to Species), handles missing classifications with NA values, and outputs a Mothur-compatible taxonomy file.
+
+#### 4. Mothur analysis
+This folder contains one script:
+- *Plant.rbcL.interactive.mothur.script.0diff_LP*: This script defines a complete Mothur-based workflow for processing paired-end plant metabarcoding data (i.e., *rbcL*). It includes read assembly, quality filtering, alignment, chimera removal, taxonomic classification, and OTU clustering.
+
 
 ### Plant Community Analyses 
 #### DATA
