@@ -19,9 +19,15 @@ This folder contains scripts used for processing plant *rcbL* metabarcoding data
 
 #### Scripts
 
-##### Remove duplicate seqs
+#### Remove duplicate seqs
 This folder contains one script:
 - *Rem_Dups_Gaps_By_Species.R*: This R script processes a FASTA alignment to removes= duplicate sequences within each species while retaining the longest representative sequence. The script calculates pairwise distance within species, identify identical sequences (distance = 0), remove redundant sequences, keeps the longest sequence among duplicates, and outputs a filtered FASTA alignment.
+
+#### Sequence alignment with Decipher
+This folder contains one script:
+- *DECIPHER_AlignTranslation.R*: This R script performs codon-aware multiple sequence alignment of protein-coding DNA sequences using the DECIPHER package. It translates DNA sequences into amino acids, aligns protein sequences to improve accuracy, back-translates aligned sequences to nucleotides, and uses NCBI genetic code 11 (plant plastid code).
+
+
 
 
 ### Plant Community Analyses 
