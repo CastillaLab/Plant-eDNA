@@ -11,7 +11,7 @@ Freshwater ecosystems are essential to global biodiversity and human well-being,
 ## Folder description
 
 ### Bioinformatic Analysis
-This folder contains scripts used for processing plant *rcbL* metabarcoding data, including sequencing cleaning, alignment, duplicate removal, GenBank retrieval, taxonomy assignment, and OUT clustering using Mothur.
+This folder contains scripts used for processing plant *rcbL* metabarcoding data, including sequencing cleaning, alignment, duplicate removal, GenBank retrieval, taxonomy assignment, and OTU clustering using Mothur.
 
 #### Data
 - **Plant_rbcL_align_noprimers_092419.fas**: Curated reference alignment of plant *rbcL* sequences used to construct the metabarcoding reference database. Sequences were retrieved from GenBank, aligned with DECIPHER, manually curated, trimmed to the target barcode region, deduplicated, and supplemented with newly generated Sanger sequences (see Supplemental Table S2).
@@ -21,7 +21,7 @@ This folder contains scripts used for processing plant *rcbL* metabarcoding data
 
 #### 1. Remove duplicate seqs
 This folder contains one script:
-- *Rem_Dups_Gaps_By_Species.R*: This R script processes a FASTA alignment to removes= duplicate sequences within each species while retaining the longest representative sequence. The script calculates pairwise distance within species, identify identical sequences (distance = 0), remove redundant sequences, keeps the longest sequence among duplicates, and outputs a filtered FASTA alignment.
+- *Rem_Dups_Gaps_By_Species.R*: This R script processes a FASTA alignment to remove duplicate sequences within each species while retaining the longest representative sequence. The script calculates pairwise distance within species, identifies identical sequences (distance = 0), removes redundant sequences, keeps the longest sequence among duplicates, and outputs a filtered FASTA alignment.
 
 #### 2. Sequence alignment with Decipher
 This folder contains one script:
